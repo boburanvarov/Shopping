@@ -1,0 +1,22 @@
+.input-group  {
+    width: 70%;
+}
+
+.input-group-text {
+    cursor: pointer;
+}
+
+.navIcons {
+    cursor: pointer;
+}
+
+.navIcons mat-icon {
+    margin: 5px;
+}
+
+.icons:hover {
+    color: red;
+}
+
+
+

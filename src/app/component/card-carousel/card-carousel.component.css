@@ -1,0 +1,32 @@
+
+
+.carousel {
+    height: 500px !important;
+    margin-top: 80px;
+}
+
+
+.card-img-top {
+    width: 100px !important;
+    height: 300px;
+} 
+
+.card-slides {
+    width: 250px !important;
+    text-align: center;
+}
+
+
+.card-body {
+    border: 1px solid grey;
+    height: 300px !important;
+    width: 200px;
+    border-top: none;
+}
+
+.card-title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}

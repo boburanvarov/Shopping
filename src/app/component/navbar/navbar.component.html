@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="#">Brand/Logo</a>
+    <button class="navbar-toggler" (click)="collapse=!collapse" type="button" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse" (click)="collapse=false" [hidden]="collapse">
+      <div class="input-group mb-3 my-2 my-lg-0  flex-nowrap bg-light mx-0 mx-lg-auto rounded p-1">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+          aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="input-group-text" id="basic-addon2" mat-raised-button color="primary">
+            <mat-icon>search</mat-icon>
+          </button>
+
+        </div>
+      </div>
+      <div class="navIcons">
+<!-- 
+        <mat-icon class="icons">favorite_border</mat-icon>
+        <mat-icon class="icons material-icons-outlined">local_grocery_store</mat-icon> -->
+        <mat-icon class="icons material-icons-outlined" (click)="loginDialog()">person</mat-icon>
+      </div>
+    </div>
+  </div>
+</nav>

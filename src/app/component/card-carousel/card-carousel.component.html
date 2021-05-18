@@ -1,0 +1,20 @@
+
+
+
+
+<div class="container carousel">
+
+  <carousel class="">
+    <div class="card-slides carousel-cell" *ngFor="let image of images">
+      <ul class="slides">
+          <img class="card-img-top" src="{{image.img}}" alt="Card image cap">
+          <div class="card-body">
+
+    <h5 class="card-title">{{image.title}}</h5>
+            <p class="card-text">{{image.cardText}}</p>
+          </div>
+      </ul>
+      
+    </div>
+      </carousel>
+</div>

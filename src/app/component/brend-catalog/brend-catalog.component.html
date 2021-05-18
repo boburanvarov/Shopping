@@ -1,0 +1,14 @@
+<div class="container carousel">
+    <carousel >
+    <div class="carousel-cell" *ngFor="let image of images">
+        <ul class="slides">
+            <button mat-raised-button class="child">
+                
+                    <img class="img" src="{{image.img}}">
+                    <h5 class="title">{{image.title}}</h5>
+            
+            </button>    </ul>
+    </div>
+    </carousel>
+</div>
+

@@ -1,0 +1,46 @@
+/* .parent {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+} */
+
+
+.child{
+    width: 100px !important;
+    height: 100px !important;
+    margin-left: 0 !important;
+    border-radius: 50%;
+    border:  2px solid blue;
+    margin-top: 50px !important;
+    
+}
+
+.child:hover {
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.child .img {
+    height: 80px;
+    width: 80px;
+    margin-left: -5px;
+    margin-top: 5px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+
+ul.slides {
+    padding-inline-start: 0 !important;
+}
+
+.carousel-cell {
+    width:  100px !important;
+}
+
+.carousel {
+    z-index: 99;
+}

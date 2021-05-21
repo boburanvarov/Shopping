@@ -1,2 +1,38 @@
+<!-- <mat-grid-list cols="1" rowHeight="50px"> -->
+      
+       <div class="container-fluid">
+           <div class="row">
+                   <div class="col-md-12 navbar">
+                        <span class="material-icons reorder" (click)="drawer.toggle()">reorder</span>     
+                        <span (click)="logout()" class="material-icons logout">logout</span>
+                   </div>
+           </div>
+       </div>
+        
 
-        <span (click)="logout()" class="material-icons logout">logout</span>
+        <mat-drawer-container class="nav">
+                <mat-drawer #drawer mode="side" class="sidenav" opened>
+                    <button mat-button>
+                        <span class="material-icons-outlined sidenav-icons">verified</span>Brend Catalog  
+                    </button>                             
+                    <button mat-button > <span class="material-icons sidenav-icons">list</span>Katalog
+                    </button>
+                    <button mat-button> <span
+                            class="material-icons sidenav-icons">category</span>Kategoriyalar
+                    </button>
+                    <button mat-button routerLink="announcement"> <span
+                            class="material-icons sidenav-icons">summarize</span>E'lonlar
+                    </button>
+                </mat-drawer>
+                <mat-drawer-content>
+            
+                    <mat-card class="example-card col-md-11 col-8">
+                        <mat-card-content>
+            
+                            <router-outlet></router-outlet>
+            
+                        </mat-card-content>
+                    </mat-card>
+            
+                </mat-drawer-content>
+            </mat-drawer-container>

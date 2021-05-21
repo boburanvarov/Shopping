@@ -3,6 +3,7 @@
 .carousel {
     height: 500px !important;
     margin-top: 80px;
+    z-index: 999;
 }
 
 

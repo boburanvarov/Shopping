@@ -1,4 +1,59 @@
-.logout {
+
+.nav {
+    height: 100vh;
+}
+
+.navbar {
+    height: 40px;
+}
+
+mat-drawer {
+    width: 250px;
+}
+
+.reorder {
+    position: absolute;
+    left: 20px;
     cursor: pointer;
-    float: right;
+}
+
+.logout {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* .person {
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+} */
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.sidenav {
+    text-align: center;
+}
+
+.sidenav button{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+.sidenav-icons {
+    margin: 0px 10px;
+    margin-top: -3px;
+}
+
+.example-card {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    color: #303030;
+    margin: 60px;
 }

@@ -7,7 +7,6 @@ export interface DialogData {
   username: string;
   password: string;
 }
-
 @Component({
   selector: 'navbar',
   templateUrl: './navbar.component.html',
@@ -17,6 +16,7 @@ export class NavbarComponent implements OnInit {
   shoppingIsLogin: boolean = false;
   
   collapse: boolean = true;
+
   ngOnInit() {
 
     }
